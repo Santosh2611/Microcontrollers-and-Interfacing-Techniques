@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "relay_interfacing_code.o" --omf_browse "relay_interfacing_code.crf" --depend "relay_interfacing_code.d" "Relay_Interfacing_Code.c"

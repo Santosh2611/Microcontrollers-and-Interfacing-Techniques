@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "relay_interfacing_code.o" --strict --scatter "Relay_Interfacing.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Relay_Interfacing.map" -o "Relay_Interfacing.axf"
