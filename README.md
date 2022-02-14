@@ -1,1 +1,1 @@
-# Microcontrollers-and-Interfacing-Techniques
+Demonstration of the mini-lab component activities conducted for the course of Microcontrollers and Interfacing Techniques (19CCE201). It introduces the features of an advanced RISC microprocessor and applies the knowledge of embedded C programming for configuring various peripherals of an (ARM LPC2148) microcontroller. It also designs and develops microcontroller-based solutions for solving real-world problems.
