@@ -1,0 +1,2 @@
+Dependencies for Project 'arm_basic', Target 'Target 1': (DO NOT MODIFY !)
+F (.\ADD.S)(0x61BB4FBC)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC\Philips" --list "ADD.lst" --xref -o "ADD.o")
