@@ -1,0 +1,101 @@
+1. Single Register Load (Base Plus Offset Pre-Indexed With Immediate Offset)
+	AREA ADDITION,CODE,READONLY
+	ENTRY
+	LDR R0, =0X40000000
+	LDR R1, [R0]
+	LDR R2, [R0, #4]
+STOP B	STOP
+	END
+
+2. Single Register Load (Base Plus Offset Pre-Indexed With Immediate Offset and WRITE BACK)
+	AREA ADDITION,CODE,READONLY
+	ENTRY
+	LDR R0, =0X40000000
+	LDR R1, [R0]
+	LDR R2, [R0, #4]!
+STOP B	STOP
+	END
+
+3. Single Register Load (Base Plus Offset POST-INDEXED with Immediate Offset)
+	AREA ADDITION,CODE,READONLY
+	ENTRY
+	LDR R0, =0X40000000
+	LDR R1, [R0]
+	LDR R2, [R0], #4
+STOP B	STOP
+	END
+
+4. Single Register Load and Store:
+	AREA ADDITION,CODE,READONLY
+	ENTRY
+	LDR R0, =0X40000000
+	LDR R1, [R0]
+	LDR R2, [R0], #4
+	STR R2, [R0, #4]!
+STOP B	STOP
+	END
+
+5. Single Register Load (Decrement):
+	AREA ADDITION,CODE,READONLY
+	ENTRY
+	LDR R0, =0X40000004
+	LDR R1, [R0]
+	LDR R2, [R0, #-4]!
+STOP B	STOP
+	END
+
+6. Single Register Load (Base Plus Offset Pre-Indexed with REGISTER OFFSET and Write Back):
+	AREA ADDITION,CODE,READONLY
+	ENTRY
+	LDR R0, =0X40000000
+	LDR R1, [R0]
+	MOV R2, #4
+	LDR R3, [R0, R2]!
+STOP B	STOP
+	END
+
+7. Single Register Load (Base Plus Offset Pre-Indexed with SCALED REGISTER OFFSET and Write Back):
+	AREA ADDITION,CODE,READONLY
+	ENTRY
+	LDR R0, =0X40000000
+	LDR R1, [R0]
+	MOV R2, #1
+	LDR R3, [R0, R2, LSL #2]!
+STOP B	STOP
+	END
+
+8. Single Register Load Halfword (Base Plus Offset Pre-Indexed with Immediate Offset and Write Back)
+	AREA ADDITION,CODE,READONLY
+	ENTRY
+	LDR R0, =0X40000000
+	LDRH R1, [R0]
+	LDRH R2, [R0, #4]!
+STOP B	STOP
+	END
+
+9. Single Register Load Byte (Base Plus Offset Pre-Indexed with Immediate Offset and Write Back)
+	AREA ADDITION,CODE,READONLY
+	ENTRY
+	LDR R0, =0X40000000
+	LDRB R1, [R0]
+	LDRB R2, [R0, #4]!
+STOP B	STOP
+	END
+
+10. Single Register Load Signed Halfword (Base Plus Offset Pre-Indexed with Immediate Offset and Write Back)
+	AREA ADDITION,CODE,READONLY
+	ENTRY
+	LDR R0, =0X40000000
+	LDRSH R1, [R0]
+	LDRSH R2, [R0, #4]!
+STOP B	STOP
+	END
+
+11. Single Register Load Signed Byte (Base Plus Offset Pre-Indexed with Immediate Offset and Write Back)
+	AREA ADDITION,CODE,READONLY
+	ENTRY
+	LDR R0, =0X40000000
+	LDRSB R1, [R0]
+	LDRSB R2, [R0, #4]!
+STOP B	STOP
+	END
