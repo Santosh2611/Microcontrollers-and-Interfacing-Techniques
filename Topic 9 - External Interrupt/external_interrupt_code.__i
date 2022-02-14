@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "external_interrupt_code.o" --omf_browse "external_interrupt_code.crf" --depend "external_interrupt_code.d" "External_Interrupt_Code.c"

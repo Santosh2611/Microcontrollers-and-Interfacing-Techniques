@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "external_interrupt_code.o" --strict --scatter "External_Interrupt.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\External_Interrupt.map" -o "External_Interrupt.axf"
