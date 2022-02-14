@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "led_switch_code.o" --strict --scatter "LED_Switch.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED_Switch.map" -o "LED_Switch.axf"

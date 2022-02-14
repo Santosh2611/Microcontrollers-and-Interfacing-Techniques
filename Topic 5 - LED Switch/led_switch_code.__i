@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "led_switch_code.o" --omf_browse "led_switch_code.crf" --depend "led_switch_code.d" "LED_Switch_Code.c"
