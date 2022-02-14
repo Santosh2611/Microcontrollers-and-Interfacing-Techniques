@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'LED_Blink.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"led_blink_code.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "led_blink_code.o" --strict --scatter "LED_Blink.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED_Blink.map" -o "LED_Blink.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'LED_Blink.axf'
+### ADS-LD Command File: 'LED_Blink.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'LED_Blink.lnp', Handle=0x00000638
+### Writing '.lnp' file
+### ADS-LD Command file 'LED_Blink.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
