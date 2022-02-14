@@ -1,0 +1,4 @@
+Dependencies for Project 'UART_Reception_Transmission', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4A02A570)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\UART_Reception_Transmission_Code.c)(0x62099FBA)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "uart_reception_transmission_code.o" --omf_browse "uart_reception_transmission_code.crf" --depend "uart_reception_transmission_code.d")
+I (C:\Keil\ARM\INC\Philips\LPC214x.H)(0x4A02A636)

@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "uart_reception_transmission_code.o" --omf_browse "uart_reception_transmission_code.crf" --depend "uart_reception_transmission_code.d" "UART_Reception_Transmission_Code.c"

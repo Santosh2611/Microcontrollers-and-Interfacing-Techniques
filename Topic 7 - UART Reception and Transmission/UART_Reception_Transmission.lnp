@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "uart_reception_transmission_code.o" --strict --scatter "UART_Reception_Transmission.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\UART_Reception_Transmission.map" -o "UART_Reception_Transmission.axf"
