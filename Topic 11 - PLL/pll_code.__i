@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "pll_code.o" --omf_browse "pll_code.crf" --depend "pll_code.d" "PLL_Code.c"

@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "pll_code.o" --strict --scatter "PLL.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\PLL.map" -o "PLL.axf"
