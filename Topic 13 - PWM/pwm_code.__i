@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "pwm_code.o" --omf_browse "pwm_code.crf" --depend "pwm_code.d" "PWM_Code.c"
