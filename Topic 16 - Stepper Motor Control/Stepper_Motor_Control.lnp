@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "stepper_motor_control_code.o" --strict --scatter "Stepper_Motor_Control.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Stepper_Motor_Control.map" -o "Stepper_Motor_Control.axf"

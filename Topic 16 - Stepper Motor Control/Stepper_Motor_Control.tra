@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'Stepper_Motor_Control.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"stepper_motor_control_code.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "stepper_motor_control_code.o" --strict --scatter "Stepper_Motor_Control.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Stepper_Motor_Control.map" -o "Stepper_Motor_Control.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Stepper_Motor_Control.axf'
+### ADS-LD Command File: 'Stepper_Motor_Control.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Stepper_Motor_Control.lnp', Handle=0x00000A60
+### Writing '.lnp' file
+### ADS-LD Command file 'Stepper_Motor_Control.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
