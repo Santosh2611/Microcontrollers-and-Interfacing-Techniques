@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "timer_counter_code.o" --omf_browse "timer_counter_code.crf" --depend "timer_counter_code.d" "Timer_Counter_Code.c"
