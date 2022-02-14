@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "keypad_interfacing_code.o" --strict --scatter "Keypad_Interfacing.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Keypad_Interfacing.map" -o "Keypad_Interfacing.axf"
