@@ -1,0 +1,23 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\19CCE201 Lab Sessions\Seven_Segment_Display\Seven_Segment_Display.uvproj
+Project File Date:  02/14/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling Seven_Segment_Display_Code.c...
+Seven_Segment_Display_Code.c(11): warning:  #940-D: missing return statement at end of non-void function "wait"
+linking...
+Program Size: Code=996 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"Seven_Segment_Display.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling Seven_Segment_Display_Code.c...
+linking...
+Program Size: Code=992 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"Seven_Segment_Display.axf" - 0 Error(s), 0 Warning(s).

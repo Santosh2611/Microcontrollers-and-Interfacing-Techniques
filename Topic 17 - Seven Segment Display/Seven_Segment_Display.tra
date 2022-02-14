@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'Seven_Segment_Display.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"seven_segment_display_code.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "seven_segment_display_code.o" --strict --scatter "Seven_Segment_Display.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Seven_Segment_Display.map" -o "Seven_Segment_Display.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Seven_Segment_Display.axf'
+### ADS-LD Command File: 'Seven_Segment_Display.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Seven_Segment_Display.lnp', Handle=0x00000B3C
+### Writing '.lnp' file
+### ADS-LD Command file 'Seven_Segment_Display.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

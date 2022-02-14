@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "seven_segment_display_code.o" --omf_browse "seven_segment_display_code.crf" --depend "seven_segment_display_code.d" "Seven_Segment_Display_Code.c"
